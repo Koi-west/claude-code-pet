@@ -5,14 +5,16 @@
 Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：透明窗口、永久悬浮、随时对话，并通过 Claude Code ，配合 Skills、Plugins、Sub-agents、MCP，可以被重新组合、被重新定义。
 
 
-# 一些 Aha moment
-虽然大部分都是 CC 本身的能力
-1. 处理我的 Obsidian
-因为miko  1. 在终端 2. 永久悬浮 ，所以我可以在任何地方使用他，我不用再我用 Obsidian 的时候切换，他直接访问就好了。
-为了本地化，我果断把 Heptabase 
+## 1. 一些 Aha moment
+虽然大部分都是 CC 本身的能力，但是通过桌宠的聊天交互来实现，还是给了我很多不一样的惊喜🎉
+1. 处理 Obsidian with Skill/CC
+因为miko：永久悬浮+连接了在 CLI Agent CC ，所以我可以在任何地方使用他 Agent 的能力，我不用在我用 Obsidian 的时候切换到 终端，我能在任何应用、界面，只要我想用
+为了本地化，我果断把 Heptabase 迁移到了 Obsidian 。
 
 借用 Obsidian 和 notebook LM 的 Skill，我可以让他创建一个 canvas 在 Obsidian
+
 <img src="public/assets/CC-Obsidian.gif" alt="Miko demo" width="80%">
+
 （发现录的视频有一些隐私数据，暂时应该没人看，我下个剪映明天改一下）
 
 2. GUI Agent
@@ -21,16 +23,22 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 <img src="public/assets/GUI-wechat.gif" alt="Miko demo" width="80%">
 
+3. MCP
+之前我们已经实现过调用浏览器来搜索，这次我们接了 Chrome ，增加了更多的可能性。
 
+<img src="public/assets/MCP-StreetLights.gif" alt="Miko demo" width="80%">
 
 突然发现我们在 AdventureX 计划的很多，可以被 CC 如此完成。在构建完后，我也一直 start 在我的桌面，自己使用，Dogfooding 
-# Roadmap
+
+但现在的 UI 和 design system 都太糟糕了。还有最重要的 Dashboard 的功能实现上。Next Step 首先解决这两个。
+
+## 2. Roadmap
 
 - milestone1（Done）：
 1. 永久悬浮桌宠+对话框，连接 Claude Code
 2. 连接 Claude Code，完成初步的 ChatUI 适配 Claude Code
 - milestone2（Done）：
- 1. Dashboard 面板管理 Skill/Plugin/MCP/API/提示词/连接端口
+1. Dashboard 面板管理 Skill/Plugin/MCP/API/提示词/连接端口
 2. 对话记忆与管理，/start /new /history /model，真实连接状态
 3. 以子工具的方式整合了腾讯开源的端侧 GUI Agent Tip，只在意图识别为需要鼠标点击的时候调用
 4. 划词监听、文件/窗口索引、窗口截图、@ 搜索联动
