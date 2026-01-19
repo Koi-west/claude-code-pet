@@ -16,13 +16,12 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 2. GUI Agent
 最近用来一个 2B 的端侧模型（腾讯开源的 GUI youtu），然后尝试把他接入到了 Claude Code，我发现了很多可能性，对于我自己的 Aha Moment：
-前面提到的端侧小模型，接入了 Doubao 的 API 后，他能执行一些有趣的小任务
-我觉得他的价值是大于单独下载一个的，接在 CC 里，有需要再调用
-比如：加好友
+前面提到的端侧小模型，接入了 Doubao 的 API 后，他能执行一些有趣的小任务，我把他接在了 CC 里，他会做意图识别，有需要再调用
 
 
 
-我突然发现，我们在 AdventureX 计划的很多能力，可以被如此完成。这是一个我自己构建完后，一直 start 在我的桌面，自己使用，dogfooding 的东西。
+
+突然发现我们在 AdventureX 计划的很多，可以被 CC 如此完成。在构建完后，我也一直 start 在我的桌面，自己使用，Dogfooding 
 # Roadmap
 
 - milestone1（Done）：
@@ -34,7 +33,7 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 3. 以子工具的方式整合了腾讯开源的端侧 GUI Agent Tip，只在意图识别为需要鼠标点击的时候调用
 4. 划词监听、文件/窗口索引、窗口截图、@ 搜索联动
 
-- milestone 2：重构 miko 的设计系统/UI/UX；优化 Dashboard 任何人都能零基础配置&下载&创建 Skill、Plugin、API、MCP .... 
+- milestone 2：重构 miko 的设计系统/UI/UX；优化 Dashboard GUI 界面配置&下载&创建 Skill、Plugin、API、MCP .... 
 - milestone 3：可以下载 GitHub 开源的应用接入 Claude Code， 在 Dashboard 管理，在意图识别需要的时候调用
 - milestone 4：支持和 AI 对话后创建自己的应用，后端托管在本地，在 dashboard 直接管理
 - milestone 5：开放社区开放分享和使用自己的应用
