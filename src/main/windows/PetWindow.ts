@@ -1,6 +1,7 @@
 import { BrowserWindow, screen, app } from 'electron';
 import * as path from 'path';
 import { AppSettings } from '../storage/SettingsStore';
+import { getAppIconPath } from '../utils/appIcon';
 
 export interface PetWindowOverrides {
   width?: number;
@@ -30,6 +31,7 @@ export class PetWindow {
 
     const storedX = typeof this.settings.windowX === 'number' ? this.settings.windowX : null;
     const storedY = typeof this.settings.windowY === 'number' ? this.settings.windowY : null;
+    const iconPath = getAppIconPath();
 
     const win = new BrowserWindow({
       width: windowWidth,
@@ -49,6 +51,7 @@ export class PetWindow {
       type: process.platform === 'darwin' ? 'panel' : 'normal',
       backgroundColor: 'rgba(0, 0, 0, 0)',
       hasShadow: false,
+      icon: iconPath ?? undefined,
     });
 
     // Load pet window HTML

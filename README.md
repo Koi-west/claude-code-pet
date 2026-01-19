@@ -11,7 +11,6 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 因为miko  1. 在终端 2. 永久悬浮 ，所以我可以在任何地方使用他，我不用再我用 Obsidian 的时候切换，他直接访问就好了。
 为了本地化，我果断把 Heptabase 
 
-
 借用 Obsidian 和 notebook LM 的 Skill，我可以让他创建一个 canvas 在 Obsidian
 
 2. GUI Agent
@@ -34,17 +33,18 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 4. 划词监听、文件/窗口索引、窗口截图、@ 搜索联动
 
 - milestone 2：重构 miko 的设计系统/UI/UX；优化 Dashboard GUI 界面配置&下载&创建 Skill、Plugin、API、MCP .... 
-- milestone 3：可以下载 GitHub 开源的应用接入 Claude Code， 在 Dashboard 管理，在意图识别需要的时候调用
-- milestone 4：支持和 AI 对话后创建自己的应用，后端托管在本地，在 dashboard 直接管理
-- milestone 5：开放社区开放分享和使用自己的应用
-- milestone 6：更主动化的 Agent 能力，监听窗口。语音交互，以及主动交互
+- milestone 3：可以开源的项目接入 miko， 在 Dashboard 管理，在意图识别需要的时候调用
+- milestone 4：支持用户和 AI 直接创建自己的应用（基于设计规范和调用原则），后端托管在本地，在 dashboard 直接管理，在意图识别需要的时候调用。
+- milestone 5：开放社区分享和使用 self-creat 的应用
+- milestone 6：更主动化的 Agent 能力，监听窗口。增加语音交互
 - milestone 7：优化桌宠实现，包括动画和交互方式，音效，发布一些周边。
-- milestone 8：支持用户设计自己的主视觉和桌面宠物
-- milestone 9：优化 GUI 工具，优化 SOP 和工作流形式
+- milestone 8：用户可以很简单地设计和创造自己的主视觉和桌面宠物，应用的设计语言也会随之改变
+- milestone 9：优化 GUI 工具，增加学习工作 SOP 和工作流再次执行
 - milestone 10：浏览器插件
 - milestone 11：Agent 沙箱
-- milestone 12：优化端侧模型，尽可能保证数据和隐私安全
-- milestone 13：更换 miko Agent 框架为自研框架
+- milestone 12：训练优化和支持更多端侧模型，供用户选择，尽可能保证数据和隐私安全
+- milestone 13：更换 miko Agent 框架为自研 Agent 框架
 - milestone 14：和 miko 刻意记录和维护个人数据，，以增加更多的个人 context，增援 AI 的未来。用于更好地分析和优化自己，优化后端的数据存储和知识管理（PKM） 。数据采集+安全的数据存储+安全调用，供前端应用使用，eg:健康和生物设备的数据（血糖、压力检测、血液咖啡因）、24/7 屏幕监控和分析、录制周围环境。可能会有手机端和硬件结合。
   
+![Miko demo](public/assets/20260119181240.gif)
  

@@ -1,8 +1,9 @@
-import { app } from 'electron';
+import { app, nativeImage } from 'electron';
 import { windowManager } from './windows/WindowManager';
 import { initializeIPC, cleanupIPC } from './ipc';
 import { shortcutManager } from './shortcuts/ShortcutManager';
 import { settingsStore } from './storage/SettingsStore';
+import { getAppIconPath } from './utils/appIcon';
 
 /**
  * Desktop Pet with Claude Code Integration
@@ -28,6 +29,11 @@ if (!gotTheLock) {
 
   // App ready
   app.whenReady().then(async () => {
+    const iconPath = getAppIconPath();
+    if (iconPath && process.platform === 'darwin') {
+      app.dock.setIcon(nativeImage.createFromPath(iconPath));
+    }
+
     // Show dock icon for debugging (normally hidden for desktop pet)
     // if (process.platform === 'darwin') {
     //   app.dock.hide();
