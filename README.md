@@ -13,6 +13,7 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 借用 Obsidian 和 notebook LM 的 Skill，我可以让他创建一个 canvas 在 Obsidian
 <img src="public/assets/CC-Obsidian.gif" alt="Miko demo" width="80%">
+（发现录的视频有一些隐私数据，暂时应该没人看，我下个剪映明天改一下）
 
 2. GUI Agent
 最近用来一个 2B 的端侧模型（腾讯开源的 GUI youtu），然后尝试把他接入到了 Claude Code，我发现了很多可能性，对于我自己的 Aha Moment：
