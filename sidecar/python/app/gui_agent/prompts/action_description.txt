@@ -1,0 +1,24 @@
+Supported actions and their required parameters:
+
+* `mouse_move`: Move the cursor to specific (x, y) coordinates.
+  - Required params: `coordinate`
+* `click`: Click the left mouse button at (x, y). (Implicitly moves cursor first).
+  - Required params: `coordinate`
+* `left_click_drag`: Click and hold left button at current position, drag to new (x, y), then release.
+  - Required params: `coordinate`
+* `right_click`: Click the right mouse button at (x, y).
+  - Required params: `coordinate`
+* `middle_click`: Click the middle mouse button at (x, y).
+  - Required params: `coordinate`
+* `double_click`: Double-click the left mouse button at (x, y).
+  - Required params: `coordinate`
+* `scroll`: Scroll the mouse wheel. Positive `pixels` scrolls down/right, negative scrolls up/left.
+  - Required params: `pixels` (optionally `coordinate` to scroll at a specific location)
+* `type`: Type a string of text. (Ensure text field is focused first).
+  - Required params: `text`
+* `key`: Press specific keyboard keys (e.g., "Return", "Control+c").
+  - Required params: `keys`
+* `wait`: Wait for the screen to update or load.
+  - Required params: `time`
+* `terminate`: Complete the task explicitly.
+  - Required params: `status`

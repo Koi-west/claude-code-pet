@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "./dist/renderer",
+    "rootDir": "./src/renderer",
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"]
+  },
+  "include": [
+    "src/renderer/**/*",
+    "src/types/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "src/main", "src/core"]
+}

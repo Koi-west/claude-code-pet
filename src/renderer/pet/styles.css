@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --motion-duration: 220ms;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-neutral-900);
+  background: transparent;
+}
+
+.drag-region {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}

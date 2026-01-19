@@ -1,0 +1,10 @@
+- `{"action": "mouse_move", "coordinate": [x, y]}`
+- `{"action": "click", "coordinate": [x, y]}` (Auto-moves to target)
+- `{"action": "left_click_drag", "coordinate": [x, y]}` (Drag to target)
+- `{"action": "right_click", "coordinate": [x, y]}`
+- `{"action": "double_click", "coordinate": [x, y]}`
+- `{"action": "type", "text": "string"}` (Requires focus)
+- `{"action": "key", "keys": ["key1", "key2"]}`
+- `{"action": "scroll", "pixels": number}`
+- `{"action": "wait", "time": seconds}` (Essential for loading)
+- `{"action": "terminate", "status": "success/failure"}`

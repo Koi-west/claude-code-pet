@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --motion-duration: 220ms;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base, 16px);
+  color: var(--color-neutral-900);
+  background: var(--color-neutral-50);
+}
