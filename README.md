@@ -66,4 +66,4 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 - milestone 13：更换 miko Agent 框架为自研 Agent 框架
 - milestone 14：和 miko 刻意记录和维护个人数据，，以增加更多的个人 context，增援 AI 的未来。用于更好地分析和优化自己，优化后端的数据存储和知识管理（PKM） 。数据采集+安全的数据存储+安全调用，供前端应用使用，eg:健康和生物设备的数据（血糖、压力检测、血液咖啡因）、24/7 屏幕监控和分析、录制周围环境。可能会有手机端和硬件结合。
  
-<img src="public/assets/heros.png" alt="Miko demo" width="80%">
+<img src="public/assets/heros.png" alt="Miko demo" >
