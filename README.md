@@ -39,6 +39,8 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 很容易想到，miko 如果再有更优雅和容易的管理 Skill、MCP、Sub-Agent、Plugin、各种意图调用的项目...以及更满意的交互和设计，会是一个很有意义的桌面 Agent，也能沉淀一些个人的数据和 AI handson know-how 来到下一次 “Skill“ 下一次 “MCP“
 
+且我觉得 CC 是需要一个没那么极客、有趣好玩的交互方式的。
+
 但现在的 UI 和 design system 都太糟糕了。还有最重要的 Dashboard 的功能实现上。Next Step 首先解决这两个。
 
 ## 2. Roadmap
