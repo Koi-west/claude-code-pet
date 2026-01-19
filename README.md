@@ -12,11 +12,13 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 为了本地化，我果断把 Heptabase 
 
 借用 Obsidian 和 notebook LM 的 Skill，我可以让他创建一个 canvas 在 Obsidian
+<img src="public/assets/CC-Obsidian.gif" alt="Miko demo" width="80%">
 
 2. GUI Agent
 最近用来一个 2B 的端侧模型（腾讯开源的 GUI youtu），然后尝试把他接入到了 Claude Code，我发现了很多可能性，对于我自己的 Aha Moment：
 前面提到的端侧小模型，接入了 Doubao 的 API 后，他能执行一些有趣的小任务，我把他接在了 CC 里，他会做意图识别，有需要再调用
 
+<img src="public/assets/GUI-wechat.gif" alt="Miko demo" width="80%">
 
 
 
@@ -45,6 +47,4 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 - milestone 12：训练优化和支持更多端侧模型，供用户选择，尽可能保证数据和隐私安全
 - milestone 13：更换 miko Agent 框架为自研 Agent 框架
 - milestone 14：和 miko 刻意记录和维护个人数据，，以增加更多的个人 context，增援 AI 的未来。用于更好地分析和优化自己，优化后端的数据存储和知识管理（PKM） 。数据采集+安全的数据存储+安全调用，供前端应用使用，eg:健康和生物设备的数据（血糖、压力检测、血液咖啡因）、24/7 屏幕监控和分析、录制周围环境。可能会有手机端和硬件结合。
-  
-![Miko demo](public/assets/20260119181240.gif)
  
