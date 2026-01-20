@@ -31,12 +31,13 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 3. MCP
 
-之前我们已经实现过调用浏览器来搜索，这次我们接了 Chrome MCP ，增加了更多的可能性。
+之前我们已经实现过调用浏览器来搜索，但 MCP 增加了很多的可能性。这次我们接了 Chrome MCP
 
 <img src="public/assets/MCP-StreetLights.gif" alt="Miko demo" width="80%">
 
-让他看一下 canva 上的 slides
-在我给了链接以后，CC 就不断调用 Chrome MCP 一页一页地查看
+除了简单的网页搜索，我给了上次做的slides，我给了他一个 canva 的分享链接
+
+然后 miko 就 开始不断调用 Chrome MCP 一页一页地查看
 
 <img src="public/assets/MCP-warp.png" alt="Miko demo" width="80%">
 
@@ -86,6 +87,8 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 ## 3. Archive
 - slides in AdventureX（2025.7.27）：https://www.canva.com/design/DAGuNNpaInw/qR8od72ntvTwithFr6HIoQ/edit?utm_content=DAGuNNpaInw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## 4. outro
 
 
 <img src="public/assets/heros.png" alt="Miko demo" >
