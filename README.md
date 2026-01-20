@@ -35,13 +35,25 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 <img src="public/assets/MCP-StreetLights.gif" alt="Miko demo" width="80%">
 
+让他看一下 canva 上的 slides
+在我给了链接以后，CC 就不断调用 Chrome MCP 一页一页地查看
+
+<img src="public/assets/MCP-warp.png" alt="Miko demo" width="80%">
+
+最后给出一些 summary
+
+<img src="public/assets/MCP-canva.png" alt="Miko demo" width="80%">
+
+
 突然发现我们在 AdventureX 计划的很多，可以被 CC 如此完成。在构建完后，我也一直 start 在我的桌面，自己使用，Dogfooding 
 
-很容易想到，miko 如果再有更优雅和容易的管理 Skill、MCP、Sub-Agent、Plugin、各种意图调用的项目...以及更满意的交互和设计，会是一个很有意义的桌面 Agent，也能沉淀一些个人的数据和 AI handson know-how 来到下一次 “Skill“ 下一次 “MCP“
+最近看到大家都在分享把自己的行业 know-how 变成了 Skill，OpenAI 甚至花钱雇了很多专业的医生开出 500 美元的时薪来让他们写 Skill。大家越来越容易创造，基于自己 Spark 的创造，很容易想到，未来会有很多很多的“3.0 APP“
+
+如果更优雅和容易的管理、创造、分享 Skill、MCP、Sub-Agent、Plugin、各种意图调用的项目...以及更满意的交互和设计，会是一个很有意义的桌面 Agent，也能沉淀一些个人的数据和 AI handson know-how 来到下一次 “Skill“ 下一次 “MCP“
 
 且我觉得 CC 是需要一个没那么极客、有趣好玩的交互方式的。
 
-但现在的 UI 和 design system 都太糟糕了。还有最重要的 Dashboard 的功能实现上。Next Step 首先解决这两个。
+但现在 miko 的 UI 和 design system 都太糟糕了。还有最重要的 Dashboard 的功能实现上。Next Step 首先解决这两个。
 
 ## 2. Roadmap
 
@@ -67,7 +79,9 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 - milestone 12：训练优化和支持更多端侧模型，供用户选择，尽可能保证数据和隐私安全
 - milestone 13：更换 miko Agent 框架为自研 Agent 框架
 - milestone 14：和 miko 刻意记录和维护个人数据，，以增加更多的个人 context，增援 AI 的未来。用于更好地分析和优化自己，优化后端的数据存储和知识管理（PKM） 。数据采集+安全的数据存储+安全调用，供前端应用使用，eg:健康和生物设备的数据（血糖、压力检测、血液咖啡因）、24/7 屏幕监控和分析、录制周围环境。可能会有手机端和硬件结合。
+
 我很想象，miko 在 whoop 检测到压力值过大的时候提醒我停止工作，他看到我屏幕、我的生活、我的周围，知道我发生的一切。
+
 一天发生了很多，但是这只蓝色小精灵就一直在我周围陪伴着我。
 
 ## 3. Archive
