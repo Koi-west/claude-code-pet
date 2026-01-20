@@ -81,14 +81,13 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 - milestone 13：更换 miko Agent 框架为自研 Agent 框架
 - milestone 14：和 miko 刻意记录和维护个人数据，，以增加更多的个人 context，增援 AI 的未来。用于更好地分析和优化自己，优化后端的数据存储和知识管理（PKM） 。数据采集+安全的数据存储+安全调用，供前端应用使用，eg:健康和生物设备的数据（血糖、压力检测、血液咖啡因）、24/7 屏幕监控和分析、录制周围环境。可能会有手机端和硬件结合。
 
-我很想象，miko 在 whoop 检测到压力值过大的时候提醒我停止工作，他看到我屏幕、我的生活、我的周围，知道我发生的一切。
+    我很想象，miko 在 whoop 检测到压力值过大的时候提醒我停止工作，他看到我屏幕、我的生活、我的周围，知道我发生的一切。
 
-一天发生了很多，但是这只蓝色小精灵就一直在我周围陪伴着我。
+    一天发生了很多，但是这只蓝色小精灵就一直在我周围陪伴
 
 ## 3. Archive
 - slides in AdventureX（2025.7.27）：https://www.canva.com/design/DAGuNNpaInw/qR8od72ntvTwithFr6HIoQ/edit?utm_content=DAGuNNpaInw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## 4. outro
-
 
 <img src="public/assets/heros.png" alt="Miko demo" >
