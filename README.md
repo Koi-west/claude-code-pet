@@ -100,5 +100,25 @@ Miko 是常驻桌面的 AI ，以 Claude Agent SDK 形式连接 Claude Code：�
 
 **Koi-west** · **DEM1TASSE**
 
+<table>
+  <tr>
+    <td align="center" width="160">
+      <a href="https://github.com/Koi-west">
+        <img src="https://github.com/Koi-west.png" width="96" height="96" style="border-radius: 9999px;" />
+      </a>
+      <br />
+      <sub><strong>Koi-west</strong></sub>
+    </td>
+
+    <td align="center" width="160">
+      <a href="https://github.com/DEM1TASSE">
+        <img src="https://github.com/DEM1TASSE.png" width="96" height="96" style="border-radius: 9999px;" />
+      </a>
+      <br />
+      <sub><strong>DEM1TASSE</strong></sub>
+    </td>
+  </tr>
+</table>
+
 
 <img src="public/assets/heros.png" alt="Miko demo" >
